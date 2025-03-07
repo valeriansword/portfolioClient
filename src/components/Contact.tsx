@@ -24,7 +24,7 @@ const Contact = () => {
     // In a real application, you would handle form submission here
    console.log(formData)
     try {
-      const response = await axios.post("http://localhost:3000/send-email", formData);
+      const response = await axios.post("https://portfolioserver-gqpc.onrender.com/send-email", formData);
 
       if (response.status === 200) {
         console.log("Email sent successfully:", response.data.message);
@@ -53,7 +53,7 @@ const Contact = () => {
       icon: <MapPin size={24} />, 
       title: 'Location', 
       value: 'Madurai,TamilNadu',
-      link: 'https://maps.google.com/?q=San+Francisco'
+      link: 'https://maps.google.com'
     }
   ];
 
