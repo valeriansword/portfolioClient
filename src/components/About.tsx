@@ -38,7 +38,7 @@ const About = () => {
   }, [isInView]);
 
   const stats = [
-    { icon: <Code size={24} />, value: '2+', label: 'Years Experience (as a freelancer)' },
+    { icon: <Code size={24} />, value: '2+', label: 'Years of turning ideas into code' },
     { icon: <BookOpen size={24} />, value: '15+', label: 'Projects Completed' },
     { icon: <Award size={24} />, value: 'Udemy & Meta', label: 'Certified Full Stack Developer' },
     { icon: <GraduationCap size={24} />, value: 'NITT Workshop', label: 'Attendee' },
